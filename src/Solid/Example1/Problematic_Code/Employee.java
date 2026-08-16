@@ -59,20 +59,24 @@ public class Employee {
         this.address = address;
     }
 
+    // Responsibility 1: Reporting
     public void printPerformanceReport(){
         System.out.println("Performance report of employee : "+name);
     }
 
+    // Responsibility 2: Calculation / Business Logic
     public double computeSalary(){
         return 1000.0;
     }
 
     //if data storage req is changed, we might need to update this function
+    // Responsibility 3: Data Management (Persistence)
     public void updateEmployeeData(){
         System.out.println("Employee data successfully updated");
     }
 
 
+    // Responsibility 3: Data Management (Persistence)
     public void fetchEmployeeData(){
         System.out.println("Employee data fetched successfully");
     }
