@@ -1,4 +1,4 @@
-package Solid.Example1.Problematic_Code;
+package SingleResponsibilityPrinciple.Example1.Problematic_Code;
 
 /*Single Responsibility Principle (SRP) — Study Notes
 1. Core Definition

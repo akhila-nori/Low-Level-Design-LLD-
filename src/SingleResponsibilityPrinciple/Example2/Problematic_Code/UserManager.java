@@ -1,4 +1,4 @@
-package Solid.Example2.Problematic_Code;
+package SingleResponsibilityPrinciple.Example2.Problematic_Code;
 
 /*1. Core Definition
 Definition: A class or module should have one and only one reason to change, meaning it should only be responsible for a single part of the software's functionality.

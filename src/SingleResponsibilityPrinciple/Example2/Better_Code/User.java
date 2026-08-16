@@ -1,4 +1,4 @@
-package Solid.Example2.Better_Code;
+package SingleResponsibilityPrinciple.Example2.Better_Code;
 
 public class User {
     private int age;

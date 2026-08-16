@@ -1,4 +1,4 @@
-package Solid.Example3.Problematic_Code;
+package SingleResponsibilityPrinciple.Example3.Problematic_Code;
 
 import java.io.*;
 import java.nio.file.Files;

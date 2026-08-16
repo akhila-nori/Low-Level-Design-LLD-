@@ -1,4 +1,4 @@
-package Solid.Example2.Problematic_Code;
+package SingleResponsibilityPrinciple.Example2.Problematic_Code;
 
 public class User {
         private int age;

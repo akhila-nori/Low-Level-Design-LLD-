@@ -1,4 +1,4 @@
-package Solid.Example3.Better_Code;
+package SingleResponsibilityPrinciple.Example3.Better_Code;
 
 public class Main {
     public static void main(String[] args) {

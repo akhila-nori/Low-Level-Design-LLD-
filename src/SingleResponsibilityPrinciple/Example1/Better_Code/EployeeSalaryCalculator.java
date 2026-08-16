@@ -1,4 +1,4 @@
-package Solid.Example1.Better_Code;
+package SingleResponsibilityPrinciple.Example1.Better_Code;
 
 //This class is only responsible for computing salary
 

@@ -1,4 +1,4 @@
-package Solid.Example3.Better_Code;
+package SingleResponsibilityPrinciple.Example3.Better_Code;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

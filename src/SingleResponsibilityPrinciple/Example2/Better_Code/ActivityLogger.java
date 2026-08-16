@@ -1,6 +1,6 @@
-package Solid.Example2.Better_Code;
+package SingleResponsibilityPrinciple.Example2.Better_Code;
 
-import Solid.Example2.Problematic_Code.User;
+import SingleResponsibilityPrinciple.Example2.Problematic_Code.User;
 
 public class ActivityLogger {
 
