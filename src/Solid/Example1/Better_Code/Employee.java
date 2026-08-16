@@ -1,11 +1,14 @@
-package Solid.BetterCode;
+package Solid.Example1.Better_Code;
 
-//This class follows - SRP (Single Responsibility Principle)
 
-//We have segregated the classes in a way such that there is one core responsibility every class has , hence there is only one reason to change logic in a class
+//core employee class need not change
+//each class segregation of concern
+//in this way we are able to achieve single responsibility principle (SRP) - this class follows SRP
 
+//This class is now only responsible for basic employee data creation and fetching
 
 public class Employee {
+
     private int id;
     private String name;
     private String address;
@@ -19,6 +22,7 @@ public class Employee {
     public int getEmployeeId(){
         return id;
     }
+
     public String getEmployeeName(){
         return name;
     }
@@ -27,11 +31,12 @@ public class Employee {
         return address;
     }
 
-    public void setEmployeeAddress(){
+    public void setEmployeeAdress(){
         this.address = address;
     }
 
     public void setEmployeeName(){
         this.name = name;
     }
+
 }
