@@ -9,6 +9,8 @@ public class NotificationSender {
     //NotificationSender iterates through the list of Notification interfaces without needing to know whether they are emails, SMS, or push alerts
     //Each respective class executes its own implementation of sendMessage(message).
 
+    //Instead of being tightly coupled to type of notifications - kept it generic List<Notification>, we now depend on notification interface.
+    //Even if we introduce new type of notifications or remove any older one, the sender class is not impacted. This is the essence of OCP.
     public void sendNotifications(List<Notification> notificationTypes, String message){
         for(Notification n :  notificationTypes){
             n.sendMessage(message);
