@@ -11,6 +11,19 @@ public abstract class CreditCard {
 
     //Getter and Setter methods for the above fields
 
+    // Getters and Setters
+    public String getCardNumber() { return cardNumber; }
+    public void setCardNumber(String cardNumber) { this.cardNumber = cardNumber; }
+
+    public String getCardHolderName() { return cardHolderName; }
+    public void setCardHolderName(String cardHolderName) { this.cardHolderName = cardHolderName; }
+
+    public String getExpiryDate() { return expiryDate; }
+    public void setExpiryDate(String expiryDate) { this.expiryDate = expiryDate; }
+
+    public int getCvv() { return cvv; }
+    public void setCvv(int cvv) { this.cvv = cvv; }
+
     public abstract void swipeAndPay();
 
     public abstract void deRefund(); //doRefund() is not supported via Dinners . If you pay anything apart from Dinners, you can do refund but if you pay via Dinners, you cannot do refund. So, this method is not supported by Dinners.
@@ -29,4 +42,11 @@ public abstract class CreditCard {
     //And Scenario - for intl transactions - lets say Mastercard expects a PIN but Visa, Dinners doesn't expect a PIN. So, this method is not supported by all credit cards.
 
 //CreditCard is driven by issuing company not bank - it can be Visa credit card
+
+    public static void main(String[] args) {
+        CreditCard myCard = new RupayCreditCard();
+        myCard.setCardHolderName("Akhila");
+        System.out.println("Cardholder: " + myCard.getCardHolderName());
+        myCard.swipeAndPay();
+    }
 }
