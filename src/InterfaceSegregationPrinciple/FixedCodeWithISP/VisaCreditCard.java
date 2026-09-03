@@ -1,6 +1,6 @@
 package InterfaceSegregationPrinciple.FixedCodeWithISP;
 
-public class VisaCreditCard extends CreditCard {
+public class VisaCreditCard extends CreditCard implements RefundCompatibleCreditCard{
     @Override
     public void swipeAndPay() {
         System.out.println("Visa card: Swiped and paid.");
