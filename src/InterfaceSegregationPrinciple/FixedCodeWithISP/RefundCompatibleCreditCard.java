@@ -1,4 +1,8 @@
 package InterfaceSegregationPrinciple.FixedCodeWithISP;
 
-public class RefundCompatibleCreditCard {
+public interface RefundCompatibleCreditCard {
+
+    default void doRefund() {
+
+    }
 }
